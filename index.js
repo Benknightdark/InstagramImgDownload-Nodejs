@@ -40,5 +40,4 @@ function GetInstagramPhoto(UserName,Dir) {
     }
   });
 }
-//name,url
 GetInstagramPhoto(process.argv[2],process.argv[3]);
