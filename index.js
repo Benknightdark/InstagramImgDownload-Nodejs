@@ -40,4 +40,5 @@ function GetInstagramPhoto(UserName,Dir) {
     }
   });
 }
-GetInstagramPhoto("woooozzzzz","E:\\Dropbox\\temp\\");
+//name,url
+GetInstagramPhoto(process.argv[2],process.argv[3]);
